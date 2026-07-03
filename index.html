@@ -1,11 +1,494 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brazza Delices | Restaurant</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="caption">
+        <h1>BrazzaDelices</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#hero_plate">Plat du jour</a></li>
+          <li><a href="#entrees">Entrées</a></li>
+          <li><a href="#plates">Plats</a></li>
+          <li><a href="#desserts">desserts</a></li>
+          <li><a href="#drinks">boissons</a></li>
+          <li><a href="#booking">reservation</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main_container">
+        <!--le plat du jour-->
+        <section id="hero_plate">
+          <h2>Plat du jour</h2>
+          <article class="daily_plate">
+            <h3>Saka-Saka</h3>
+            <img src="img/saka-saka.webp" alt="Saka-Saka" />
+            <p class="plate_desciption">
+              Feuilles de manioc mijotées dans une sauce parfumée à l'huile de
+              palme avec du poisson fumé. Servi avec du riz, du foufou ou de la
+              chikwangue.
+            </p>
+            <span class="plate_price">2500 FCFA</span>
+          </article>
+        </section>
+
+        <!--les entrées-->
+        <section id="entrees" class="entrees">
+          <h2>Nos Entrées</h2>
+          <div class="entrees-grill">
+            <article class="entree">
+              <h3 class="entree_name">Salade Tropicale</h3>
+              <img src="img/salad-trop.jpg" alt="Salade Tropicale" />
+              <p class="entree_desciption">
+                Mélange d'avocat, tomates, concombre, oignons rouges et
+                vinaigrette citronnée.
+              </p>
+              <span class="entree_price">1500 FCFA</span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name">Chikwangue Grillée</h3>
+              <img src="img/chkwg.jpg" alt="Chikwangue Grillée" />
+              <p class="entree_desciption">
+                Chikwangue légèrement grillée servie avec une sauce pimentée
+                maison.
+              </p>
+              <span class="entree_price">900 FCFA</span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name">Beignets de Banane Plantain</h3>
+              <img src="img/beignets.jpg" alt="Beignets de Banane Plantain" />
+              <p class="entree_desciption">
+                Rondelles de banane plantain dorées à l'extérieur et fondantes à
+                l'intérieur.
+              </p>
+              <span class="entree_price">1000 FCFA</span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name">Beignets de Manioc</h3>
+              <img src="beignets2.jpg" alt="Beignets de Manioc" />
+              <p class="entree_desciption">
+                Délicieux beignets croustillants de manioc servis chauds.
+              </p>
+              <span class="entree_price">1200 FCFA</span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name">Accras de Poisson</h3>
+              <img src="img/accras.jpg" alt="Accras de Poisson" />
+              <p class="entree_desciption">
+                Beignets de poisson assaisonnés aux herbes fraîches et frits à
+                la perfection.
+              </p>
+              <span class="entree_price">1500 FCFA</span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name">Mini Brochettes</h3>
+              <img src="img/mini-brochettes.jpg" alt="Mini Brochettes" />
+              <p class="entree_desciption">
+                Petites brochettes de bœuf marinées et grillées au charbon.
+              </p>
+              <span class="entree_price">1500 FCFA</span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name">Ailes de Poulet Grillées</h3>
+              <img src="img/ailes.jpg" alt="Ailes de Poulet Grillées" />
+              <p class="entree_desciption">
+                Ailes de poulet marinées aux épices puis grillées jusqu'à
+                obtenir une peau croustillante.
+              </p>
+              <span class="entree_price">1800 FCFA</span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name">Plantain Frit</h3>
+              <img src="img/plantin.jpg" alt="Plantain Frit" />
+              <p class="entree_desciption">
+                Bananes plantains mûres frites et servies bien chaudes.
+              </p>
+              <span class="entree_price">1000 FCFA</span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name">Frites de Patate Douce</h3>
+              <img src="img/frite-ptt.jpg" alt="Frites de Patate Douce" />
+              <p class="entree_desciption">
+                Bâtonnets de patate douce frits, croustillants à l'extérieur et
+                fondants à l'intérieur.
+              </p>
+              <span class="entree_price">1200 FCFA</span>
+            </article>
+            <!--
+            <article class="entree">
+              <h3 class="entree_name"></h3>
+              <img src="" alt="" />
+              <p class="entree_desciption"></p>
+              <span class="entree_price"></span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name"></h3>
+              <img src="" alt="" />
+              <p class="entree_desciption"></p>
+              <span class="entree_price"></span>
+            </article>
+            <article class="entree">
+              <h3 class="entree_name"></h3>
+              <img src="" alt="" />
+              <p class="entree_desciption"></p>
+              <span class="entree_price"></span>
+            </article>
+            -->
+          </div>
+          <p><a href="#booking">reserver une place</a></p>
+        </section>
+
+        <!--les plats-->
+        <section id="plates" class="plates">
+          <h2>Les plats principaux</h2>
+          <div class="plates-grill">
+            <article class="plate">
+              <h3 class="plate_name">Saka-Saka</h3>
+              <img src="img/saka-saka.webp" alt="Saka-Saka" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name">Liboké de Poisson</h3>
+              <img src="img/liboke.jpg" alt="iboké de Poisson" />
+              <p class="plate_desciption">
+                Poisson frais mariné aux épices, tomates et aromates, enveloppé
+                dans une feuille de bananier puis cuit lentement à l'étouffée.
+              </p>
+              <span class="plate_price">3200 FCFA</span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name">Poulet Moambe</h3>
+              <img src="img/poulet-mouambe.jpg" alt="Poulet Moambe" />
+              <p class="plate_desciption">
+                Poulet tendre mijoté dans une sauce traditionnelle à base de
+                noix de palme, relevée d'épices locales.
+              </p>
+              <span class="plate_price">3500 FCFA</span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name">Brochettes de Bœuf</h3>
+              <img src="img/brochettes-boeuf.jpg" alt="Brochettes de Bœuf" />
+              <p class="plate_desciption">
+                Morceaux de bœuf marinés puis grillés au charbon de bois. Servis
+                avec une sauce pimentée maison.
+              </p>
+              <span class="plate_price">2200 FCFA</span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name">Poisson Braisé</h3>
+              <img src="img/poisson-braise.jpg" alt="Poisson Braisé" />
+              <p class="plate_desciption">
+                Poisson entier soigneusement mariné puis grillé à la braise
+                jusqu'à obtenir une peau croustillante et une chair fondante.
+              </p>
+              <span class="plate_price">3500 FCFA</span>
+            </article>
+            <!-- 
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            <article class="plate">
+              <h3 class="plate_name"></h3>
+              <img src="img/" alt="" />
+              <p class="plate_desciption"></p>
+              <span class="plate_price"></span>
+            </article>
+            -->
+          </div>
+          <p><a href="#booking">reserver une place</a></p>
+        </section>
+
+        <!--les desserts-->
+        <section id="desserts" class="desserts">
+          <h2>Nos Desserts</h2>
+          <div class="desserts-grill">
+            <article class="dessert">
+              <h3 class="dessert_name">alade de Fruits Frais</h3>
+              <img src="img/salad-fruit.jpg" alt="alade de Fruits Frais" />
+              <p class="dessert_desciption">
+                Mélange coloré de fruits tropicaux soigneusement sélectionnés
+                selon la saison.
+              </p>
+              <span class="dessert_price">1200 FCFA</span>
+            </article>
+            <article class="dessert">
+              <h3 class="dessert_name">Banane Flambée</h3>
+              <img src="img/banane-flb.jpg" alt="Banane Flambée" />
+              <p class="dessert_desciption">
+                Banane caramélisée, légèrement flambée et parfumée à la
+                cannelle.
+              </p>
+              <span class="dessert_price">1500 FCFA</span>
+            </article>
+            <article class="dessert">
+              <h3 class="dessert_name">Ananas Frais</h3>
+              <img src="img/ananas-frt.jpg" alt="Ananas Frais" />
+              <p class="dessert_desciption">
+                Tranches d'ananas frais servies bien fraîches.
+              </p>
+              <span class="dessert_price">1000 FCFA</span>
+            </article>
+            <article class="dessert">
+              <h3 class="dessert_name">Beignets Sucrés au Coco</h3>
+              <img src="img/beignets.jpg" alt="Beignets Sucrés au Coco" />
+              <p class="dessert_desciption">
+                Tranches d'ananas frais servies bien fraîches.
+              </p>
+              <span class="dessert_price">1000 FCFA</span>
+            </article>
+            <article class="dessert">
+              <h3 class="dessert_name">Mangue Fraîche</h3>
+              <img src="img/mangues.jpg" alt="Mangue Fraîche" />
+              <p class="dessert_desciption">
+                Mangue mûre découpée et servie fraîche.
+              </p>
+              <span class="dessert_price">1000 FCFA</span>
+            </article>
+          </div>
+          <p><a href="#booking">reserver une place</a></p>
+        </section>
+
+        <!--les boissons-->
+        <section id="drinks" class="drinks_section">
+          <h2>Les boissons disponibles</h2>
+          <div class="drinks-grill">
+            <article class="drink">
+              <h3 class="drink_name">Eau</h3>
+              <img src="img/eau.webp" alt="Eau" />
+              <p class="drink_desciption">Eau minérale fraîche.</p>
+              <span class="drink_price">Gratuit</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Bissap</h3>
+              <img src="img/bissap.webp" alt="Bissap" />
+              <p class="drink_desciption">
+                Boisson traditionnelle à base de fleurs d'hibiscus, servie bien
+                fraîche.
+              </p>
+              <span class="drink_price">500 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Jus de Gingembre</h3>
+              <img src="img/jus-de-gingembre.webp" alt="Jus de Gingembre" />
+              <p class="drink_desciption">
+                Jus naturel de gingembre frais légèrement sucré.
+              </p>
+              <span class="drink_price">700 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Jus d'Ananas</h3>
+              <img src="img/jus-ananas.webp" alt="Jus d'Ananas" />
+              <p class="drink_desciption">Jus d'ananas frais pressé.</p>
+              <span class="drink_price">800 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Jus de Mangue</h3>
+              <img src="img/jus-mangue.webp" alt="Jus de Mangue" />
+              <p class="drink_desciption">Jus naturel de mangue bien mûre.</p>
+              <span class="drink_price">800 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Coca-Cola</h3>
+              <img src="img/coca-cola.webp" alt="Coca-Cola" />
+              <p class="drink_desciption">
+                Boisson gazeuse servie bien fraîche.
+              </p>
+              <span class="drink_price">700 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Fanta</h3>
+              <img src="img/fanta.webp" alt="Fanta" />
+              <p class="drink_desciption">
+                Boisson gazeuse à l'orange servie fraîche.
+              </p>
+              <span class="drink_price">700 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Sprite</h3>
+              <img src="img/sprite.webp" alt="Sprite" />
+              <p class="drink_desciption">
+                Boisson gazeuse citron-lime servie bien fraîche.
+              </p>
+              <span class="drink_price">700 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Primus</h3>
+              <img src="img/primus.webp" alt="Primus" />
+              <p class="drink_desciption">
+                Bière blonde locale servie bien fraîche.
+              </p>
+              <span class="drink_price">1200 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Ngok</h3>
+              <img src="img/ngok.webp" alt="Ngok" />
+              <p class="drink_desciption">
+                Bière locale appréciée pour son goût équilibré.
+              </p>
+              <span class="drink_price">1200 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Heineken</h3>
+              <img src="img/heineken.webp" alt="Heineken" />
+              <p class="drink_desciption">
+                Bière blonde premium servie très fraîche.
+              </p>
+              <span class="drink_price">1500 FCFA</span>
+            </article>
+            <article class="drink">
+              <h3 class="drink_name">Guinness</h3>
+              <img src="img/guinness.webp" alt="Guinness" />
+              <p class="drink_desciption">
+                Bière brune au goût riche et intense.
+              </p>
+              <span class="drink_price">1500 FCFA</span>
+            </article>
+          </div>
+        </section>
+        <!--Compartif des prix-->
+        <section class="price">
+          <h2>Comparatif de prix sur plusieurs de nos offres</h2>
+          <div class="price_comparator">
+            <table>
+              <tr>
+                <th>Offre</th>
+                <th>Comprend</th>
+                <th>Prix</th>
+              </tr>
+              <tr>
+                <td>Basic</td>
+                <td>1 plat + 1 dessert</td>
+                <td>5 000 FCFA</td>
+              </tr>
+              <tr>
+                <td>Complet</td>
+                <td>1 entrée + 1 plats + 1 dessert + 1 boisson</td>
+                <td>9 000 FCFA</td>
+              </tr>
+              <tr>
+                <td>Couple</td>
+                <td>2 entrée + 2 plats + 2 dessert + 2 boisson</td>
+                <td>13 500 FCFA</td>
+              </tr>
+              <tr>
+                <td>Custom</td>
+                <td>nombre de plats au choix</td>
+                <td>paiement à la consommation</td>
+              </tr>
+            </table>
+          </div>
+          <p><a href="#booking">reserver une place</a></p>
+        </section>
+        <!--horaires-->
+        <section class="horaires">
+          <h2>Nos horaires d'ouverture</h2>
+          <div class="haraires_container">
+            <dl class="horaires_list">
+              <dt>Du Lundi au Vendredi</dt>
+              <dd>08h00 - 17h00, 19h00 - 23h00</dd>
+              <dt>Samedi et Dimanche</dt>
+              <dd>12h00 - 23h00</dd>
+            </dl>
+          </div>
+          <p><a href="#booking">reserver une place</a></p>
+        </section>
+
+        <!--Reservations-->
+        <section id="booking" class="reservation">
+          <h2>Reserver votre place</h2>
+          <form class="reservation_formular">
+            <label for="name">votre nom</label>
+            <input type="text" name="nom" id="name" /><br />
+            <label for="tel">Votre telephone</label>
+            <input type="tel" name="tel" id="tel" /><br />
+            <label for="amount_booked"
+              >Combien de place voulez vous reserver</label
+            >
+            <input
+              type="number"
+              name="amount_booked"
+              id="amount_booked"
+            /><br />
+            <label for="day">choisissez le jour</label>
+            <select name="day" id="day">
+              <option value="Lundi">Lundi</option>
+              <option value="Mardi">Mardi</option>
+              <option value="Mercredi">Mercredi</option>
+              <option value="Jeudi">Jeudi</option>
+              <option value="venredi">venredi</option>
+              <option value="Samedi">Samedi</option>
+              <option value="Dimanche">Dimanche</option></select
+            ><br />
+            <label for="horaire">horaires</label>
+            <select name="horaire" id="horaire">
+              <option value="08h00 - 17h00">08h00 - 17h00</option>
+              <option value="19h00 - 23h00">19h00 - 23h00</option></select
+            ><br />
+            <input type="submit" value="Reserver" />
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 BrazzaDelices. Tous droits réservés.</p>
+    </footer>
+  </body>
 </html>
